@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cypress:rune2e" : "npx cypress run --spec 'cypress/integration/E2E/desafio.js'",
+    "cypress:runAPITest" : "npx cypress run --spec 'cypress/integration/API/Test/*.js'",
+    "cypress:runAllTests" : "npx cypress run --spec 'cypress/integration/API/Test/*.js,cypress/integration/E2E/desafio.js'"
+
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}
